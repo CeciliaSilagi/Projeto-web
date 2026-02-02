@@ -9,6 +9,11 @@ div {
     padding: 20px;
 }
 
+h1 {
+    color: blue;
+    text-align: center;
+}
+
 p {
     font-size: 16px;
     color: red;
