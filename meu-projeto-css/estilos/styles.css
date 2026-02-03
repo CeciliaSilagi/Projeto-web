@@ -83,3 +83,26 @@ li:first-child {
 li:nth-child(2) {
     color: green;
 }
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: lightgray;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+li:hover {
+    background-color: lightblue; /* Muda cor de fundo ao passar o mouse sobre o item da lista */
+}
+
+li:nth-child(odd) {
+    color: red; /* Cor Vermelha para itens ímpares */
+}
+
+li:last-child {
+    font-weight: bold; /* Negrito para o último item da lista */
+}
