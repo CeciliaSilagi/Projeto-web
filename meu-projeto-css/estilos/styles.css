@@ -42,4 +42,11 @@ p {
     background-color: blue;
     color: white;
     cursor: pointer;
+}  
+
+[data-info="importante"] {
+    background-color: yellow;
+    input [type="text"] {
+        border: 1px solid gray;
+    }
 }
