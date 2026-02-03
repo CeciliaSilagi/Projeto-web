@@ -38,6 +38,25 @@ p {
     color: red;
 }
 
+p::before {
+    content: "Nota: ";
+    font-weight: bold;
+}
+
+p::after {
+    content: " ";
+    color: red;
+}
+
+p::first-letter {
+    font-size: 200%;
+    font-weight: bold;
+}
+
+p::first-line {
+    font-variant: small-caps;
+}
+
 .botao {
     background-color: blue;
     color: white;
