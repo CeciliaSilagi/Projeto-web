@@ -62,3 +62,24 @@ a [href$="https"] {
 img [src$=".jpg"]{
     border: 2px solid black;
 }
+
+a:hover {
+    color: red;
+}
+
+input:focus {
+    border: 2px solid blue;
+}
+
+button:active {
+    position: relative;
+    top: 2px;
+}
+
+li:first-child {
+    font-weight: bold;
+}
+
+li:nth-child(2) {
+    color: green;
+}
