@@ -129,3 +129,11 @@ li:last-child {
 .texto-padrao {
     color: blue; /* Cor padrão para o parágrafo com classe texto-padrao */
 }
+
+.texto-padrao {
+    color: red !important; /* Esta cor tem prioridade sobre azul, mesmo se definida depois */
+}
+
+.texto-padrao {
+    color: yellow; /* Outra cor para todos os parágrafos com classe texto-padrao */
+}
