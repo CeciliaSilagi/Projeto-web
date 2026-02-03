@@ -50,3 +50,11 @@ p {
         border: 1px solid gray;
     }
 }
+
+div [class^="example"] {
+    border: 2px solid red;
+}
+
+a [href$="https"] {
+    color: green;
+}
