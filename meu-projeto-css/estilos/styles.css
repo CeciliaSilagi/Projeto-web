@@ -125,3 +125,7 @@ li:nth-child(odd) {
 li:last-child {
     font-weight: bold; /* Negrito para o último item da lista */
 }
+
+.texto-padrao {
+    color: blue; /* Cor padrão para o parágrafo com classe texto-padrao */
+}
