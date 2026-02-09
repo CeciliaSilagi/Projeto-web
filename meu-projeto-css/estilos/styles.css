@@ -93,6 +93,7 @@ input:focus {
 button:active {
     position: relative;
     top: 2px;
+    color: hsla(120, 100%, 50%, 1); /* Verde puro com 30% de opacidade */
 }
 
 li:first-child {
