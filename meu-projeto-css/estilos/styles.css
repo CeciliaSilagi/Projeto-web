@@ -75,7 +75,7 @@ div [class^="example"] {
 }
 
 a [href$="https"] {
-    color: green;
+    color: hsl( 120, 100%, 50%); /* Verde puro */
 }
 
 img [src$=".jpg"]{
