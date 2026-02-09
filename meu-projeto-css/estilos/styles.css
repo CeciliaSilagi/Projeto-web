@@ -58,7 +58,7 @@ p::first-line {
 }
 
 .botao {
-    background-color: #ff0000;
+    background-color: #0000ff; /* Azul */
     color: white;
     cursor: pointer;
 }  
@@ -83,7 +83,7 @@ img [src$=".jpg"]{
 }
 
 a:hover {
-    color: red;
+    color: rgb(255, 0, 0); /* Vermelho com 50% de opacidade */
 }
 
 input:focus {
