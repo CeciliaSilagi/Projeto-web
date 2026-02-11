@@ -127,6 +127,7 @@ li:nth-child(odd) {
 
 li:last-child {
     font-weight: bold; /* Negrito para o último item da lista */
+    font-size: 1.5em; /* 150% do tamanho da fonte do elemento pai */
 }
 
 .texto-padrao {
