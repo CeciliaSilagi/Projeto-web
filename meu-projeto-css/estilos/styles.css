@@ -7,6 +7,11 @@
     /* Aplicaa a mesma família de fontes a todos os elementos */
 }
 
+html {
+    font-size: 16px;
+    /*Define o tamanho padrão da fonte para todo o documento*/
+}
+
 body {
     background-color: #f4f4f4;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
