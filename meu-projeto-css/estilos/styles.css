@@ -16,6 +16,7 @@ body {
     background-color: #f4f4f4;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1rem; /* Igual a 16px*/
+    margin: 0.5rem; /* 8px*/
 }
 
 #main-header {
