@@ -29,7 +29,7 @@ body {
 div {
     background-color: lightgrey;
     padding: 20px;
-    background-image: radial-gradient(circle, red, yellow, green);
+    
 }
 
  .background {
@@ -56,6 +56,7 @@ p {
     font-size: 150%; /* 150 % do Tamanho da fonte do elemento pai */
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #f00; /* Vermelho abreviado*/
+    background-image: radial-gradient(circle, red, yellow, green);
 }
 
 p::before {
