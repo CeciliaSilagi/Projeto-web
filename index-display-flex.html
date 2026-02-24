@@ -4,11 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Posicionamento de Layout</title>
+    <style>
+        .flex-container {
+            display: flex;
+            background-color: #E7E9EB;
+        }
+
+        .flex-item {
+            background-color: #FFFFFF;
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .row {
+            flex-direction: row; /* Padrão, os itens são organizados em linha */
+        }
+    </style>
 </head>
 <body>
     <div class="flex-container row">
         <div class="flex-item">1</div>
         <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+    </div>
+    <div class="flex-container row-reverse">
+        <div class="flex-item">4</div>
+        <div class="flex-item">5</div>
+        <div class="flex-item">6</div>
     </div>
 </body>
 </html>
