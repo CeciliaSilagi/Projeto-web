@@ -29,6 +29,9 @@ body {
 div {
     background-color: lightgrey;
     padding: 20px;
+}
+
+ .background {
     background-color: #f8f8f8; /* Cor de fundo para o elemento div */
     background-repeat: repeat-x; /* Repete a imagem de fundo horizontalmente */
     background-position: top left;
