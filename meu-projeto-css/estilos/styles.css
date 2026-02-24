@@ -37,6 +37,7 @@ div {
     background-position: top right;
     background-size: cover;
     background-attachment: fixed;
+    background-image: linear-gradient(to right, red, orange, yellow);
 }
 
 h1 {
