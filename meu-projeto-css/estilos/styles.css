@@ -29,6 +29,7 @@ body {
 div {
     background-color: lightgrey;
     padding: 20px;
+    background-image: radial-gradient(circle, red, yellow, green);
 }
 
  .background {
