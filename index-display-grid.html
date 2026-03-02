@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamento de Layout</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 2fr; /* Define duas colunas, a segunda é o dobro da primeira */
+            grid-template-rows: auto; /* Define as linhas automaticamente */
+            grid-template-areas:
+                "header header"
+                "nav main"
+                "aside main"
+                "footer footer";
+                gap: 10px;
+                height: 100vh;
+        }
+
+        header {
+            grid-area: header;
+            background-color: lightblue;
+        }
+
+        nav {
+            grid-area: nav;
+            background-color: lightgreen;
+        }
+
+        main {
+            grid-area: main;
+            background-color: lightcoral;
+        }
+
+        aside {
+            grid-area: aside;
+            background-color: lightyellow;
+        }
+
+        footer {
+            grid-area: footer;
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <header>Header</header>
+        <nav>Navigation</nav>
+        <main>Main Content</main>
+        <aside>Aside</aside>
+        <footer>Footer</footer>
+    </div>
+</body>
+</html>
