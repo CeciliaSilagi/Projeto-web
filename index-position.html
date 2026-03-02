@@ -6,7 +6,7 @@
     <title>Posicionamento de Layout</title>
     <style>
         .main-element {
-            position: static;
+            position: absolute; /* Pode ser absolute, relative, fixed ou sticky */
             left: 10px; /*Nao vai fazer efeito com position static*/
             bottom: 10px;
             background-color: yellow;
@@ -21,8 +21,8 @@
         }
 
         .sibling-element {
-            padding: 10px;
             background-color: #f2f2f2;
+            padding: 10px;
             border: 1px solid #81adc8;
         }
     </style>
