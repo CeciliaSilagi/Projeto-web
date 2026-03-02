@@ -9,7 +9,22 @@
             display: flex;
             background-color: #E7E9EB;
         }
-
+        
+        .row {
+            flex-direction: row; /* Padrão, os itens são organizados em linha */
+        }
+        
+        .row-reverse {
+            flex-direction: row-reverse;
+        }
+        
+        .column {
+            flex-direction: column;
+        }
+        .column-reverse {
+            flex-direction: column-reverse;
+        }
+        
         .flex-item {
             background-color: #FFFFFF;
             padding: 20px;
@@ -18,9 +33,7 @@
             font-size: 30px;
         }
 
-        .row {
-            flex-direction: row; /* Padrão, os itens são organizados em linha */
-        }
+      
     </style>
 </head>
 <body>
@@ -33,6 +46,16 @@
         <div class="flex-item">4</div>
         <div class="flex-item">5</div>
         <div class="flex-item">6</div>
+    </div>
+    <div class="flex-container column">
+        <div class="flex-item">7</div>
+        <div class="flex-item">8</div>
+        <div class="flex-item">9</div>
+    </div>
+    <div class="flex-container column-reverse">
+        <div class="flex-item">10</div>
+        <div class="flex-item">11</div>
+        <div class="flex-item">12</div>
     </div>
 </body>
 </html>
