@@ -6,11 +6,15 @@
     <title>Posicionamento de Layout</title>
     <style>
         .main-element {
-            position: absolute; /* Pode ser absolute, relative, fixed ou sticky */
+            position: fixed; /* Pode ser absolute, relative, fixed ou sticky */
             left: 10px; /*Nao vai fazer efeito com position static*/
             bottom: 10px;
             background-color: yellow;
             padding: 10px;
+        }
+
+        html {
+            height: 800px;
         }
 
         .parent-element {
